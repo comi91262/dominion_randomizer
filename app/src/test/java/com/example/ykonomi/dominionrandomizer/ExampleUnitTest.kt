@@ -1,4 +1,4 @@
-package com.example.ykonomi.dominion_randomizer
+package com.example.ykonomi.dominionrandomizer
 
 import org.junit.Test
 

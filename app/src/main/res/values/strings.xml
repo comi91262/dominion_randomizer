@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">dominion-randomizer</string>
+    <string name="title_activity_draw">DrawActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_supplies">SuppliesActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="navigation_view_header_title">TO-DOs</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_config">ConfigActivity</string>
 </resources>

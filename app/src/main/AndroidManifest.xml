@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ykonomi.dominion_randomizer">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ykonomi.dominionrandomizer">
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SelectActivity">
+
+        <activity android:name="com.example.ykonomi.dominionrandomizer.supplies.SuppliesActivity"
+            android:theme="@style/AppTheme.OverlapSystemBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.example.ykonomi.dominionrandomizer.config.ConfigActivity"
+            android:label="@string/title_activity_config"
+            android:parentActivityName=".supplies.SuppliesActivity"
+            tools:ignore="UnusedAttribute">
         </activity>
     </application>
 

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="基本"
+                />
+
+            <Switch
+                android:id="@+id/switch25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="陰謀"
+                />
+
+            <Switch
+                android:id="@+id/switch35"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="海辺"
+                />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/switch26"
+                android:text="収穫祭"
+                />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/switch2"
+                android:text="錬金術"
+                />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/switch27"
+                android:checked="false"
+                android:text="繁栄"
+                />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/switch34"
+                android:text="異郷"
+                />
+
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/switch32"
+                android:text="ギルド"
+                />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/switch31"
+                android:text="暗黒時代"
+                />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/switch30"
+                android:text="冒険"
+                />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/switch29"
+                android:text="帝国"
+                />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/switch28"
+                android:text="基本2nd"
+                />
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/switch40"
+                android:text="陰謀2nd"
+                />
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/switch41"
+                android:text="夜想曲"
+                />
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>
+
