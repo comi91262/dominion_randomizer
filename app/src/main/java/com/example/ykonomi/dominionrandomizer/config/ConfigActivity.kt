@@ -2,9 +2,9 @@ package com.example.ykonomi.dominionrandomizer.config
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.example.ykonomi.dominionrandomizer.Injection
 import com.example.ykonomi.dominionrandomizer.R
-import com.example.ykonomi.dominionrandomizer.utils.addFragmentToActivity
-
+import com.example.ykonomi.dominionrandomizer.utils.replaceFragmentInActivity
 
 
 class ConfigActivity : AppCompatActivity() {
@@ -12,16 +12,15 @@ class ConfigActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.config_act)
 
-
-        var cf = this.supportFragmentManager.findFragmentById(R.id.contentFrame)
-
-        if (cf == null) {
-            addFragmentToActivity(this.supportFragmentManager,
-                    ConfigFragment.newInstance(), R.id.contentFrame)
+        val configsFragment = supportFragmentManager.findFragmentById(R.id.contentFrame)
+                as ConfigFragment? ?: ConfigFragment.newInstance().also {
+            replaceFragmentInActivity(it, R.id.contentFrame)
         }
 
-        //データベースへのアクセスクラスを渡す
-        //ConfigPresenter(Injection.provideTasksRepository(getApplicationContext()), cf)
+        ConfigPresenter(Injection.provideConfigsRepository(getApplicationContext())
+                , configsFragment)
+
+
 
     }
 }
