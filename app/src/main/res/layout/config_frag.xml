@@ -1,19 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:orientation="vertical"
-android:paddingBottom="@dimen/activity_vertical_margin"
-android:paddingLeft="@dimen/activity_horizontal_margin"
-android:paddingRight="@dimen/activity_horizontal_margin"
-android:paddingTop="@dimen/activity_vertical_margin">
-
-<TextView
-    android:id="@+id/statistics"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:text="Medium Text"
-    android:textAppearance="?android:attr/textAppearanceMedium" />
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <Switch
+        android:id="@+id/switch_basic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:switchMinWidth="100dp"
+        android:text="@string/basic"
+        android:textSize="20sp"
+        tools:checked="false" />
+
+    <Switch
+        android:id="@+id/switch_intrigue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="100dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:textSize="20sp"
+        android:text="@string/intrigue"
+        />
+
+    <Switch
+        android:id="@+id/switch_seaside"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="100dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:textSize="20sp"
+        android:text="@string/seaside"
+        />
+
+
+    <Switch
+        android:id="@+id/switch_alchemy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="100dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:textSize="20sp"
+        android:text="@string/alchemy"
+        />
+
+    <Switch
+        android:id="@+id/switch_prosperity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:switchMinWidth="100dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:textSize="20sp"
+        android:text="@string/prosperity"
+        />
+
+    <Switch
+        android:id="@+id/switch_cornucopia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="100dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:textSize="20sp"
+        android:text="@string/cornucopia"
+        />
+
+    <Switch
+        android:id="@+id/switch_hinterlands"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="100dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:textSize="20sp"
+        android:text="@string/hinterlands"
+        />
+
+
+    <Switch
+        android:id="@+id/switch_dark_ages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="100dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:textSize="20sp"
+        android:text="@string/dark_ages"
+        />
+
+    <Switch
+        android:id="@+id/switch_guilds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="100dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:textSize="20sp"
+        android:text="@string/guilds"
+        />
+
+
+    <Switch
+        android:id="@+id/switch_adventures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="100dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:textSize="20sp"
+        android:text="@string/adventures"
+        />
+
+    <Switch
+        android:id="@+id/switch_empires"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="100dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:textSize="20sp"
+        android:text="@string/empires"
+        />
+
+    <Switch
+        android:id="@+id/switch_basic_2nd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="100dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:textSize="20sp"
+        android:text="@string/basic_2nd"
+        />
+
+    <Switch
+        android:id="@+id/switch_intrigue_2nd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="100dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:textSize="20sp"
+        android:text="@string/intrigue_2nd"
+        />
+    <Switch
+        android:id="@+id/switch_nocturne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:switchMinWidth="100dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:textSize="20sp"
+        android:text="@string/nocturne"
+        />
 
 </LinearLayout>

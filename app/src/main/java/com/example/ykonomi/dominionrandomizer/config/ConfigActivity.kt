@@ -17,8 +17,7 @@ class ConfigActivity : AppCompatActivity() {
             replaceFragmentInActivity(it, R.id.contentFrame)
         }
 
-        ConfigPresenter(Injection.provideConfigsRepository(getApplicationContext())
-                , configsFragment)
+        ConfigPresenter(applicationContext, configsFragment)
 
 
 

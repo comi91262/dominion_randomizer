@@ -4,11 +4,14 @@ import com.example.ykonomi.dominionrandomizer.utils.BaseView
 interface SuppliesContract {
 
     interface View : BaseView<Presenter> {
-        fun showSwitch()
+        fun showAddCard()
+
+
+
     }
 
     interface Presenter : BasePresenter {
-        fun getData()
+        fun addCards()
     }
 
 }

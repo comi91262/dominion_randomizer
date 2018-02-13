@@ -15,4 +15,19 @@
 
     <string name="list_setting">設定</string>
 
+    <string name="basic">基本</string>
+    <string name="intrigue">陰謀</string>
+    <string name="seaside">海辺</string>
+    <string name="alchemy">錬金術</string>
+    <string name="prosperity">繁栄</string>
+    <string name="cornucopia">収穫祭</string>
+    <string name="hinterlands">異郷</string>
+    <string name="dark_ages">暗黒時代</string>
+    <string name="guilds">ギルド</string>
+    <string name="adventures">冒険</string>
+    <string name="empires">帝国</string>
+    <string name="basic_2nd">基本2nd</string>
+    <string name="intrigue_2nd">陰謀2nd</string>
+    <string name="nocturne">夜想曲</string>
+
 </resources>

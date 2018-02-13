@@ -6,9 +6,13 @@ import android.support.v4.widget.DrawerLayout
 import android.support.v7.app.AppCompatActivity
 import com.example.ykonomi.dominionrandomizer.R
 import android.support.design.widget.NavigationView
+import com.example.ykonomi.dominionrandomizer.Injection
 import com.example.ykonomi.dominionrandomizer.config.ConfigActivity
+import com.example.ykonomi.dominionrandomizer.config.SuppliesPresenter
+import com.example.ykonomi.dominionrandomizer.utils.replaceFragmentInActivity
 
 class SuppliesActivity : AppCompatActivity() {
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,6 +37,17 @@ class SuppliesActivity : AppCompatActivity() {
             dl.closeDrawers()
             true
         }
+
+        val suppliesFragment = supportFragmentManager.findFragmentById(R.id.contentFrame)
+                as SuppliesFragment? ?: SuppliesFragment.newInstance().also {
+            replaceFragmentInActivity(it, R.id.contentFrame)
+        }
+
+        // Create the presenter
+
+       SuppliesPresenter(Injection.provideCardsRepository(applicationContext),
+               this,
+               suppliesFragment)
 
 
     }

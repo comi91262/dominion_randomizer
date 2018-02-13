@@ -10,7 +10,7 @@ interface ConfigContract  {
     }
 
     interface Presenter : BasePresenter {
-        fun getData()
+        fun saveChecked(viewId: Int, isChecked: Boolean)
     }
 
 }
