@@ -1,370 +1,350 @@
-1,銅貨,Copper,基本,基本
-2,銀貨,Silver,基本,基本
-3,金貨,Gold,基本,基本
-4,屋敷,Estate,基本,基本
-5,公領,Duchy,基本,基本
-6,属州,Province,基本,基本
-7,呪い,Curse,基本,基本
-8,冒険者,Adventurer,基本1st,王国
-9,役人,Bureaucrat,基本,王国
-10,地下貯蔵庫,Cellar,基本,王国
-11,宰相,Chancellor,基本1st,王国
-12,礼拝堂,Chapel,基本,王国
-13,議事堂,Council Room,基本,王国
-14,祝宴,Feast,基本,王国
-15,祝祭,Festival,基本1st,王国
-16,庭園,Gardens,基本,王国 
-17,研究所,Laboratory,基本,王国 
-18,書庫,Library,基本,王国
-19,市場,Market,基本,王国
-20,民兵,Militia,基本,王国
-21,鉱山,Mine,基本,王国
-22,堀,Moat,基本,王国
-23,金貸し,Moneylender,基本,王国
-24,改築,Remodel,基本,王国
-25,鍛冶屋,Smithy,基本,王国
-26,密偵,Spy,基本1st,王国
-27,泥棒,Thief,基本1st,王国
-28,玉座の間,Throne Room,基本,王国
-29,村,Village,基本,王国
-30,魔女,Witch,基本,呪い
-31,木こり,Woodcutter,基本1st,王国
-32,工房,Workshop,基本,王国
-33,男爵,Baron,陰謀,王国
-34,橋,Bridge,陰謀,王国
-35,共謀者,Conspirator,陰謀,王国
-36,銅細工師,Coppersmith,陰謀1st,王国
-37,中庭,Courtyard,陰謀,王国
-38,公爵,Duke,陰謀,王国
-39,大広間,Great Hall,陰謀1st,王国
-40,ハーレム,Harem,陰謀,王国
-41,鉄工所,Ironworks,陰謀,王国
-42,仮面舞踏会,Masquerade,陰謀,王国
-43,鉱山の村,Mining Village,陰謀,王国
-44,寵臣,Minion,陰謀,王国
-45,貴族,Nobles,陰謀,王国
-46,手先,Pawn,陰謀,王国
-47,破壊工作員,Saboteur,陰謀1st,王国
-48,偵察員,Scout,陰謀1st,王国
-49,秘密の部屋,Secret Chamber,陰謀1st,王国
-50,貧民街,Shanty Town,陰謀,王国
-51,執事,Steward,陰謀,王国
-52,詐欺師,Swindler,陰謀,王国
-53,拷問人,Torturer,陰謀,呪い
-54,交易場,Trading Post,陰謀,王国
-55,貢物,Tribute,陰謀1st,王国
-56,改良,Upgrade,陰謀,王国
-57,願いの井戸,Wishing Well,陰謀,王国
-58,大使,Ambassador,海辺,王国
-59,バザー,Bazaar,海辺,王国
-60,隊商,Caravan,海辺,王国
-61,巾着切り,Cutpurse,海辺,王国
-62,抑留,Embargo,海辺,トークン
-63,探検家,Explorer,海辺,王国
-64,漁村,Fishing Village,海辺,王国
-65,幽霊船,Ghost Ship,海辺,王国
-66,停泊所,Haven,海辺,王国
-67,島,Island,海辺,マット
-68,灯台,Lighthouse,海辺,王国
-69,見張り,Lookout,海辺,王国
-70,商船,Merchant Ship,海辺,王国
-71,原住民の村,Native Village,海辺,マット
-72,航海士,Navigator,海辺,王国
-73,前哨地,Outpost,海辺,王国
-74,真珠採り,Pearl Diver,海辺,王国
+1,銅貨,Copper,基本,基本,
+2,銀貨,Silver,基本,基本,
+3,金貨,Gold,基本,基本,
+4,屋敷,Estate,基本,基本,
+5,公領,Duchy,基本,基本,
+6,属州,Province,基本,基本,
+7,呪い,Curse,基本,基本,
+8,冒険者,Adventurer,基本1st,王国,
+9,役人,Bureaucrat,基本,王国,
+10,地下貯蔵庫,Cellar,基本,王国,
+11,宰相,Chancellor,基本1st,王国,
+12,礼拝堂,Chapel,基本,王国,
+13,議事堂,Council Room,基本,王国,
+14,祝宴,Feast,基本,王国,
+15,祝祭,Festival,基本1st,王国,
+16,庭園,Gardens,基本,王国 ,
+17,研究所,Laboratory,基本,王国 ,
+18,書庫,Library,基本,王国,
+19,市場,Market,基本,王国,
+20,民兵,Militia,基本,王国,
+21,鉱山,Mine,基本,王国,
+22,堀,Moat,基本,王国,
+23,金貸し,Moneylender,基本,王国,
+24,改築,Remodel,基本,王国,
+25,鍛冶屋,Smithy,基本,王国,
+26,密偵,Spy,基本1st,王国,
+27,泥棒,Thief,基本1st,王国,
+28,玉座の間,Throne Room,基本,王国,
+29,村,Village,基本,王国,
+30,魔女,Witch,基本,呪い,
+31,木こり,Woodcutter,基本1st,王国,
+32,工房,Workshop,基本,王国,
+33,男爵,Baron,陰謀,王国,
+34,橋,Bridge,陰謀,王国,
+35,共謀者,Conspirator,陰謀,王国,
+36,銅細工師,Coppersmith,陰謀1st,王国,
+37,中庭,Courtyard,陰謀,王国,
+38,公爵,Duke,陰謀,王国,
+39,大広間,Great Hall,陰謀1st,王国,
+40,ハーレム,Harem,陰謀,王国,
+41,鉄工所,Ironworks,陰謀,王国,
+42,仮面舞踏会,Masquerade,陰謀,王国,
+43,鉱山の村,Mining Village,陰謀,王国,
+44,寵臣,Minion,陰謀,王国,
+45,貴族,Nobles,陰謀,王国,
+46,手先,Pawn,陰謀,王国,
+47,破壊工作員,Saboteur,陰謀1st,王国,
+48,偵察員,Scout,陰謀1st,王国,
+49,秘密の部屋,Secret Chamber,陰謀1st,王国,
+50,貧民街,Shanty Town,陰謀,王国,
+51,執事,Steward,陰謀,王国,
+52,詐欺師,Swindler,陰謀,王国,
+53,拷問人,Torturer,陰謀,呪い,
+54,交易場,Trading Post,陰謀,王国,
+55,貢物,Tribute,陰謀1st,王国,
+56,改良,Upgrade,陰謀,王国,
+57,願いの井戸,Wishing Well,陰謀,王国,
+58,大使,Ambassador,海辺,王国,
+59,バザー,Bazaar,海辺,王国,
+60,隊商,Caravan,海辺,王国,
+61,巾着切り,Cutpurse,海辺,王国,
+62,抑留,Embargo,海辺,トークン,
+63,探検家,Explorer,海辺,王国,
+64,漁村,Fishing Village,海辺,王国,
+65,幽霊船,Ghost Ship,海辺,王国,
+66,停泊所,Haven,海辺,王国,
+67,島,Island,海辺,マット,
+68,灯台,Lighthouse,海辺,王国,
+69,見張り,Lookout,海辺,王国,
+70,商船,Merchant Ship,海辺,王国,
+71,原住民の村,Native Village,海辺,マット,
+72,航海士,Navigator,海辺,王国,
+73,前哨地,Outpost,海辺,王国,
+74,真珠採り,Pearl Diver,海辺,王国,
 75,海賊船,Pirate Ship,海辺,マット,トークン
-76,引揚水夫,Salvager,海辺,王国
-77,海の妖婆,Sea Hag,海辺,呪い
-78,密輸人,Smugglers,海辺,王国
-79,策士,Tactician,海辺,王国
-80,宝の地図,Treasure Map,海辺,王国
-81,宝物庫,Treasury,海辺,王国
-82,倉庫,Warehouse,海辺,王国
-83,船着場,Wharf,海辺,王国
-84,闇市場,Black Market,プロモ,王国
-85,公使,Envoy,プロモ,王国
-86,へそくり,Stash,プロモ,王国
-87,錬金術師,Alchemist,錬金術,ポーション
-88,薬師,Apothecary,錬金術,ポーション
-89,弟子,Apprentice,錬金術,王国
+76,引揚水夫,Salvager,海辺,王国,
+77,海の妖婆,Sea Hag,海辺,呪い,
+78,密輸人,Smugglers,海辺,王国,
+79,策士,Tactician,海辺,王国,
+80,宝の地図,Treasure Map,海辺,王国,
+81,宝物庫,Treasury,海辺,王国,
+82,倉庫,Warehouse,海辺,王国,
+83,船着場,Wharf,海辺,王国,
+84,闇市場,Black Market,プロモ,王国,
+85,公使,Envoy,プロモ,王国,
+86,へそくり,Stash,プロモ,王国,
+87,錬金術師,Alchemist,錬金術,ポーション,
+88,薬師,Apothecary,錬金術,ポーション,
+89,弟子,Apprentice,錬金術,王国,
 90,使い魔,Familiar,錬金術,ポーション,呪い
-91,ゴーレム,Golem,錬金術,ポーション
-92,薬草商,Herbalist,錬金術,王国
-93,賢者の石,Philosopher's Stone,錬金術,ポーション
-94,支配,Possession,錬金術,ポーション
-95,ポーション,Potion,錬金術,ポーション
-96,念視の泉,Scrying Pool,錬金術,ポーション
-97,変成,Transmute,錬金術,ポーション
-98,大学,University,錬金術,ポーション
-99,ブドウ園,Vineyard,錬金術,ポーション
-100,銀行,Bank,繁栄,王国
-101,司教,Bishop,繁栄,トークン
-102,都市,City,繁栄,王国
-103,植民地,Colony,繁栄,王国
-104,禁制品,Contraband,繁栄,王国
-105,会計所,Counting House,繁栄,王国
-106,拡張,Expand,繁栄,王国
-107,鍛造,Forge,繁栄,王国
-108,ならず者,Goons,繁栄,トークン
-109,大市場,Grand Market,繁栄,王国
-110,隠し財産,Hoard,繁栄,王国
-111,宮廷,King's Court,繁栄,王国
-112,借金,Loan,繁栄,王国
-113,造幣所,Mint,繁栄,王国
-114,記念碑,Monument,繁栄,トークン
-115,香具師,Mountebank,繁栄,呪い
-116,行商人,Peddler,繁栄,王国
-117,白金貨,Platinum,繁栄,王国
-118,石切場,Quarry,繁栄,王国
-119,大衆,Rabble,繁栄,王国
-120,玉璽,Royal Seal,繁栄,王国
-121,護符,Talisman,繁栄,王国
-122,交易路,Trade Route,繁栄,マット
-123,保管庫,Vault,繁栄,王国
-124,投機,Venture,繁栄,王国
-125,望楼,Watchtower,繁栄,王国
-126,労働者の村,Worker's Village,繁栄,王国
-127,金貨袋,Bag of Gold,収穫祭,王国
-128,王冠,Diadem,収穫祭,王国
-129,品評会,Fairgrounds,収穫祭,王国
-130,農村,Farming Village,収穫祭,王国
-131,郎党,Followers,収穫祭,王国
-132,占い師,Fortune Teller,収穫祭,王国
-133,村落,Hamlet,収穫祭,王国
-134,収穫,Harvest,収穫祭,王国
-135,豊穣の角笛,Horn of Plenty,収穫祭,王国
-136,馬商人,Horse Traders,収穫祭,王国
-137,狩猟団,Hunting Party,収穫祭,王国
-138,道化師,Jester,収穫祭,呪い
-139,移動動物園,Menagerie,収穫祭,王国
-140,王女,Princess,収穫祭,王国
-141,再建,Remake,収穫祭,王国
-142,馬上槍試合,Tournament,収穫祭,褒賞
-143,名馬,Trusty Steed,収穫祭,王国
-144,魔女娘,Young Witch,収穫祭,災い
-145,国境の村,Border Village,収穫祭,王国
-146,埋蔵金,Cache,異郷,王国
-147,地図職人,Cartographer,異郷,王国
-148,岐路,Crossroads,異郷,王国
-149,開発,Develop,異郷,王国
-150,公爵夫人,Duchess,異郷,王国
-151,大使館,Embassy,異郷,王国
-152,農地,Farmland,異郷,王国
-153,愚者の黄金,Fool's Gold,異郷,王国
-154,値切り屋,Haggler,異郷,王国
-155,街道,Highway,異郷,王国
-156,不正利得,Ill-Gotten Gains,異郷,呪い
-157,宿屋,Inn,異郷,王国
-158,よろずや,Jack of All Trades,異郷,王国
-159,官吏,Mandarin,異郷,王国
-160,辺境伯,Margrave,異郷,王国
-161,義賊,Noble Brigand,異郷,王国
-162,遊牧民の野営地,Nomad Camp,異郷,王国
-163,オアシス,Oasis,異郷,王国
-164,神託,Oracle,異郷,王国
-165,画策,Scheme,異郷,王国
-166,シルクロード,Silk Road,異郷,王国
-167,香辛料商人,Spice Merchant,異郷,王国
-168,厩舎,Stables,異郷,王国
-169,交易人,Trader,異郷,王国
-170,坑道,Tunnel,異郷,王国
-171,囲郭村,Walled Village,プロモ,王国
-172,総督,Governor,プロモ,王国
-173,廃坑,Abandoned Mine,暗黒時代
-174,祭壇,Altar,暗黒時代
-175,武器庫,Armory,暗黒時代
-176,はみだし者,Band of Misfits,暗黒時代
-177,山賊の宿営地,Bandit Camp,暗黒時代,略奪品
-178,物乞い,Beggar,暗黒時代
-179,地下墓所,Catacombs,暗黒時代
-180,伯爵,Count,暗黒時代
-181,偽造通貨,Counterfeit,暗黒時代
-182,狂信者,Cultist,暗黒時代,廃墟
-183,死の荷車,Death Cart,暗黒時代,廃墟
-184,封土,Feodum,暗黒時代
-185,採集者,Forager,暗黒時代
-186,城塞,Fortress,暗黒時代
-187,墓暴き,Graverobber,暗黒時代
-188,隠遁者,Hermit,暗黒時代,狂人
-190,狩場,Hunting Grounds,暗黒時代
-191,金物商,Ironmonger,暗黒時代
-192,屑屋,Junk Dealer,暗黒時代
-204,襲撃者,Marauder,暗黒時代,略奪品,廃墟
-205,青空市場,Market Square,暗黒時代
-207,秘術師,Mystic,暗黒時代
-210,略奪,Pillage,暗黒時代,略奪品
-211,救貧院,Poor House,暗黒時代
-212,行進,Procession,暗黒時代
-213,ネズミ,Rats,暗黒時代
-214,建て直し,Rebuild,暗黒時代
-215,盗賊,Rogue,暗黒時代
-216,図書館跡地,Ruined Library,暗黒時代
-217,市場跡地,Ruined Market,暗黒時代
-218,廃村,Ruined Village,暗黒時代
-219,賢者,Sage,暗黒時代
-220,ゴミあさり,Scavenger,暗黒時代
-222,従者,Squire,暗黒時代
-223,物置,Storeroom,暗黒時代
-224,生存者,Survivors,暗黒時代
-225,浮浪児,Urchin,暗黒時代,傭兵
-226,浮浪者,Vagrant,暗黒時代
-227,吟遊詩人,Wandering Minstrel,暗黒時代
-228,助言者,Advisor,ギルド
-229,パン屋,Baker,ギルド
-230,肉屋,Butcher,ギルド
-231,蝋燭職人,Candlestick Maker,ギルド
-232,医者,Doctor,ギルド
-233,伝令官,Herald,ギルド
-234,熟練工,Journeyman,ギルド
-235,名品,Masterpiece,ギルド
-236,商人ギルド,Merchant Guild,ギルド
-237,広場,Plaza,ギルド
-238,予言者,Soothsayer,ギルド
-239,石工,Stonemason,ギルド
-240,収税吏,Taxman,ギルド
-241,王子,Prince,プロモ
-242,魔除け,Amulet,冒険
-243,工匠,Artificer,冒険
-244,橋の下のトロル,Bridge Troll,冒険
-245,隊商の護衛,Caravan Guard,冒険
-246,法貨,Coin of the Realm,冒険
-247,遠隔地,Distant Lands,冒険
-248,地下牢,Dungeon,冒険
-249,複製,Duplicate,冒険
-250,道具,Gear,冒険
-251,巨人,Giant,冒険
-252,案内人,Guide,冒険
-253,呪いの森,Haunted Woods,冒険
-254,雇人,Hireling,冒険
-255,失われし都市,Lost City,冒険
-256,カササギ,Magpie,冒険
-257,使者,Messenger,冒険
-258,守銭奴,Miser,冒険
-259,騎士見習い,Page,冒険
-260,農民,Peasant,冒険
-261,港町,Port,冒険
-262,山守,Ranger,冒険
-263,鼠取り,Ratcatcher,冒険
-264,倒壊,Raze,冒険
-265,遺物,Relic,冒険
-266,御料車,Royal Carriage,冒険
-267,語り部,Storyteller,冒険
-268,沼の妖婆,Swamp Hag,冒険
-269,変容,Transmogrify,冒険
-270,掘出物,Treasure Trove,冒険
-271,ワイン商,Wine Merchant,冒険
-272,施し,Alms,冒険
-273,舞踏会,Ball,冒険
-274,焚火,Bonfire,冒険
-275,借入,Borrow,冒険
-276,探検,Expedition,冒険
-277,渡し船,Ferry,冒険
-278,相続,Inheritance,冒険
-279,失われた技術,Lost Arts,冒険
-280,使節団,Mission,冒険
-281,誘導,Pathfinding,冒険
-282,巡礼,Pilgrimage,冒険
-283,立案,Plan,冒険
-284,探索,Quest,冒険
-285,奇襲,Raid,冒険
-286,保存,Save,冒険
-287,偵察隊,Scouting Party,冒険
-288,海路,Seaway,冒険
-289,交易,Trade,冒険
-290,鍛錬,Training,冒険
-291,移動遊園地,Travelling Fair,冒険
-292,チャンピオン,Champion,冒険
-293,門下生,Disciple,冒険
-294,脱走兵,Fugitive,冒険
-295,ヒーロー,ろー,Hero,冒険
-296,兵士,Soldier,冒険
-297,教師,Teacher,冒険
-298,トレジャーハンター,Treasure Hunter,冒険
-299,ウォリアー,Warrior,冒険
-300,召喚,Summon,プロモ
-301,資料庫,Archive,帝国
-302,騒がしい村,Bustling Village,帝国
-303,元手,Capital,帝国
-304,粗末な城,Humble Castle,帝国
-305,崩れた城,Crumbling Castle,帝国
-306,小さい城,Small Castle,帝国
-307,幽霊城,Haunted Castle,帝国
-308,華やかな城,Opulent Castle,帝国
-309,広大な城,Sprawling Castle,帝国
-310,壮大な城,Grand Castle,帝国
-311,王城,King's Castle,帝国
-312,投石機,Catapult,帝国
-313,戦車競走,Chariot Race,帝国
-314,御守り,Charm,帝国
-315,市街,City Quarter,帝国
-316,冠,Crown,帝国
-317,エンポリウム,Emporium,帝国
-318,陣地,Encampment,帝国
-319,女魔術師,Enchantress,帝国
-320,技術者,Engineer,帝国
-321,農家の市場,Farmers' Market,帝国
-322,大金,Fortune,帝国
-323,公共広場,Forum,帝国
-324,剣闘士,Gladiator,帝国
-325,庭師,Groundskeeper,帝国
-326,軍団兵,Legionary,帝国
-327,王室の鍛冶屋,Royal BlackSmith,帝国
-328,大君主,Overlord,帝国
-329,パトリキ,Patrician,帝国
-330,鹵獲品,Plunder,帝国
-331,石,Rocks,帝国
-332,生贄,Sacrifice,帝国
-333,開拓者,Settlers,帝国
-334,神殿,Temple,帝国
-335,ヴィラ,Villa,帝国
-336,ワイルドハント,Wild Hunt,帝国
-337,昇進,Advance,帝国
-338,併合,Annex,帝国
-339,宴会,Banquet,帝国
-340,征服,Conquest,帝国
-341,掘進,Delve,帝国
-342,制圧,Dominate,帝国
-343,寄付,Donate,帝国
-344,儀式,Ritual,帝国
-345,大地への塩まき,Salt the Earth,帝国
-346,徴税,Tax,帝国
-347,凱旋,Triumph,帝国
-348,結婚式,Wedding,帝国
-349,意外な授かり物,Windfall,帝国
-350,水道橋,Aqueduct,帝国
-351,闘技場,Arena,帝国
-352,山賊の砦,Bandit Fort,帝国
-353,公会堂,Basilica,帝国
-354,浴場,Baths,帝国
-355,戦場,Battlefield,帝国
-356,列柱,Colonnade,帝国
-357,汚された神殿,Defiled Shrine,帝国
-358,噴水,Fountain,帝国
-359,砦,Keep,帝国
-360,迷宮,Labyrinth,帝国
-361,峠,Mountain Pass,帝国
-362,博物館,Museum,帝国
-363,オベリスク,Obelisk,帝国
-364,果樹園,Orchard,帝国
-365,宮殿,Palace,帝国
-366,墓標,Tomb,帝国
-367,塔,Tower,帝国
-368,凱旋門,Triumphal Arch,帝国
-369,壁,Wall,帝国
-370,狼の巣,Wolf Den,帝国
-371,サウナ,Sauna,プロモ
-372,アヴァント,Avanto,プロモ
-373,職人,Artisan,基本2nd,王国
-374,山賊,Bandit,基本2nd,王国
-375,前駆者,Harbinger,基本2nd,王国
-376,商人,Merchant,基本2nd,王国
-377,密猟者,Poacher,基本2nd,王国
-378,衛兵,Sentry,基本2nd,王国
-379,家臣,Vassal,基本2nd,王国
-380,Courtier,Courtier,陰謀2nd,王国
-381,Diplomat,Diplomat,陰謀2nd,王国
-382,Lurker,Lurker,陰謀2nd,王国
-383,Mill,Mill,陰謀2nd,王国
-384,Patrol,Patrol,陰謀2nd,王国
-385,Replace,Replace,陰謀2nd,王国
-386,Secret Passage,Secret Passage,陰謀2nd,王国
+91,ゴーレム,Golem,錬金術,ポーション,
+92,薬草商,Herbalist,錬金術,王国,
+93,賢者の石,Philosopher's Stone,錬金術,ポーション,
+94,支配,Possession,錬金術,ポーション,
+95,ポーション,Potion,錬金術,ポーション,
+96,念視の泉,Scrying Pool,錬金術,ポーション,
+97,変成,Transmute,錬金術,ポーション,
+98,大学,University,錬金術,ポーション,
+99,ブドウ園,Vineyard,錬金術,ポーション,
+100,銀行,Bank,繁栄,王国,
+101,司教,Bishop,繁栄,トークン,
+102,都市,City,繁栄,王国,
+103,植民地,Colony,繁栄,王国,
+104,禁制品,Contraband,繁栄,王国,
+105,会計所,Counting House,繁栄,王国,
+106,拡張,Expand,繁栄,王国,
+107,鍛造,Forge,繁栄,王国,
+108,ならず者,Goons,繁栄,トークン,
+109,大市場,Grand Market,繁栄,王国,
+110,隠し財産,Hoard,繁栄,王国,
+111,宮廷,King's Court,繁栄,王国,
+112,借金,Loan,繁栄,王国,
+113,造幣所,Mint,繁栄,王国,
+114,記念碑,Monument,繁栄,トークン,
+115,香具師,Mountebank,繁栄,呪い,
+116,行商人,Peddler,繁栄,王国,
+117,白金貨,Platinum,繁栄,王国,
+118,石切場,Quarry,繁栄,王国,
+119,大衆,Rabble,繁栄,王国,
+120,玉璽,Royal Seal,繁栄,王国,
+121,護符,Talisman,繁栄,王国,
+122,交易路,Trade Route,繁栄,マット,
+123,保管庫,Vault,繁栄,王国,
+124,投機,Venture,繁栄,王国,
+125,望楼,Watchtower,繁栄,王国,
+126,労働者の村,Worker's Village,繁栄,王国,
+127,金貨袋,Bag of Gold,収穫祭,王国,
+128,王冠,Diadem,収穫祭,王国,
+129,品評会,Fairgrounds,収穫祭,王国,
+130,農村,Farming Village,収穫祭,王国,
+131,郎党,Followers,収穫祭,王国,
+132,占い師,Fortune Teller,収穫祭,王国,
+133,村落,Hamlet,収穫祭,王国,
+134,収穫,Harvest,収穫祭,王国,
+135,豊穣の角笛,Horn of Plenty,収穫祭,王国,
+136,馬商人,Horse Traders,収穫祭,王国,
+137,狩猟団,Hunting Party,収穫祭,王国,
+138,道化師,Jester,収穫祭,呪い,
+139,移動動物園,Menagerie,収穫祭,王国,
+140,王女,Princess,収穫祭,王国,
+141,再建,Remake,収穫祭,王国,
+142,馬上槍試合,Tournament,収穫祭,褒賞,
+143,名馬,Trusty Steed,収穫祭,王国,
+144,魔女娘,Young Witch,収穫祭,災い,
+145,国境の村,Border Village,収穫祭,王国,
+146,埋蔵金,Cache,異郷,王国,
+147,地図職人,Cartographer,異郷,王国,
+148,岐路,Crossroads,異郷,王国,
+149,開発,Develop,異郷,王国,
+150,公爵夫人,Duchess,異郷,王国,
+151,大使館,Embassy,異郷,王国,
+152,農地,Farmland,異郷,王国,
+153,愚者の黄金,Fool's Gold,異郷,王国,
+154,値切り屋,Haggler,異郷,王国,
+155,街道,Highway,異郷,王国,
+156,不正利得,Ill-Gotten Gains,異郷,呪い,
+157,宿屋,Inn,異郷,王国,
+158,よろずや,Jack of All Trades,異郷,王国,
+159,官吏,Mandarin,異郷,王国,
+160,辺境伯,Margrave,異郷,王国,
+161,義賊,Noble Brigand,異郷,王国,
+162,遊牧民の野営地,Nomad Camp,異郷,王国,
+163,オアシス,Oasis,異郷,王国,
+164,神託,Oracle,異郷,王国,
+165,画策,Scheme,異郷,王国,
+166,シルクロード,Silk Road,異郷,王国,
+167,香辛料商人,Spice Merchant,異郷,王国,
+168,厩舎,Stables,異郷,王国,
+169,交易人,Trader,異郷,王国,
+170,坑道,Tunnel,異郷,王国,
+171,囲郭村,Walled Village,プロモ,王国,
+172,総督,Governor,プロモ,王国,
+173,廃坑,Abandoned Mine,暗黒時代,王国,
+174,祭壇,Altar,暗黒時代,王国,
+175,武器庫,Armory,暗黒時代,王国,
+176,はみだし者,Band of Misfits,暗黒時代,王国,
+177,山賊の宿営地,Bandit Camp,暗黒時代,略奪品,
+178,物乞い,Beggar,暗黒時代,王国,
+179,地下墓所,Catacombs,暗黒時代,王国,
+180,伯爵,Count,暗黒時代,王国,
+181,偽造通貨,Counterfeit,暗黒時代,王国,
+182,狂信者,Cultist,暗黒時代,廃墟,
+183,死の荷車,Death Cart,暗黒時代,廃墟,
+184,封土,Feodum,暗黒時代,王国,
+185,採集者,Forager,暗黒時代,王国,
+186,城塞,Fortress,暗黒時代,王国,
+187,墓暴き,Graverobber,暗黒時代,王国,
+188,隠遁者,Hermit,暗黒時代,狂人,
+189,騎士,Knights,暗黒時代,王国,
+190,狩場,Hunting Grounds,暗黒時代,王国,
+191,金物商,Ironmonger,暗黒時代,王国,
+192,屑屋,Junk Dealer,暗黒時代,王国,
+193,襲撃者,Marauder,暗黒時代,略奪品,廃墟
+194,青空市場,Market Square,暗黒時代,王国,
+195,秘術師,Mystic,暗黒時代,王国,
+196,略奪,Pillage,暗黒時代,略奪品,
+197,救貧院,Poor House,暗黒時代,王国,
+198,行進,Procession,暗黒時代,王国,
+199,ネズミ,Rats,暗黒時代,王国,
+200,建て直し,Rebuild,暗黒時代,王国,
+201,盗賊,Rogue,暗黒時代,王国,
+202,図書館跡地,Ruined Library,暗黒時代,王国,
+203,市場跡地,Ruined Market,暗黒時代,王国,
+204,廃村,Ruined Village,暗黒時代,王国,
+205,賢者,Sage,暗黒時代,王国,
+206,ゴミあさり,Scavenger,暗黒時代,王国,
+207,従者,Squire,暗黒時代,王国,
+208,物置,Storeroom,暗黒時代,王国,
+209,生存者,Survivors,暗黒時代,王国,
+210,浮浪児,Urchin,暗黒時代,傭兵,
+211,浮浪者,Vagrant,暗黒時代,王国,
+212,吟遊詩人,Wandering Minstrel,暗黒時代,王国,
+213,助言者,Advisor,ギルド,王国,
+214,パン屋,Baker,ギルド,トークン,
+215,肉屋,Butcher,ギルド,トークン,
+216,蝋燭職人,Candlestick Maker,ギルド,トークン,
+217,医者,Doctor,ギルド,王国,
+218,伝令官,Herald,ギルド,王国,
+219,熟練工,Journeyman,ギルド,王国,
+220,名品,Masterpiece,ギルド,王国,
+221,商人ギルド,Merchant Guild,ギルド,トークン,
+222,広場,Plaza,ギルド,トークン,
+223,予言者,Soothsayer,ギルド,王国,
+224,石工,Stonemason,ギルド,王国,
+225,収税吏,Taxman,ギルド,王国,
+226,王子,Prince,プロモ,王国,
+227,魔除け,Amulet,冒険,王国,
+228,工匠,Artificer,冒険,王国,
+229,橋の下のトロル,Bridge Troll,冒険,トークン,
+230,隊商の護衛,Caravan Guard,冒険,王国,
+231,法貨,Coin of the Realm,冒険,マット,
+232,遠隔地,Distant Lands,冒険,マット,
+233,地下牢,Dungeon,冒険,王国,
+234,複製,Duplicate,冒険,マット,
+235,道具,Gear,冒険,王国,
+236,巨人,Giant,冒険,トークン,呪い
+237,案内人,Guide,冒険,マット,
+238,呪いの森,Haunted Woods,冒険,王国,
+239,雇人,Hireling,冒険,王国,
+240,失われし都市,Lost City,冒険,王国,
+241,カササギ,Magpie,冒険,王国,
+242,使者,Messenger,冒険,王国,
+243,守銭奴,Miser,冒険,マット,
+244,騎士見習い,Page,冒険,トラベラー,
+245,農民,Peasant,冒険,トークン,トラベラー
+246,港町,Port,冒険,王国,
+247,山守,Ranger,冒険,トークン,
+248,鼠取り,Ratcatcher,冒険,マット,
+249,倒壊,Raze,冒険,王国,
+250,遺物,Relic,冒険,トークン,
+251,御料車,Royal Carriage,冒険,マット,
+252,語り部,Storyteller,冒険,王国,
+253,沼の妖婆,Swamp Hag,冒険,呪い,
+254,変容,Transmogrify,冒険,マット,
+255,掘出物,Treasure Trove,冒険,王国,
+256,ワイン商,Wine Merchant,冒険,マット,
+257,施し,Alms,冒険,イベント,
+258,舞踏会,Ball,冒険,イベント,
+259,焚火,Bonfire,冒険,イベント,
+260,借入,Borrow,冒険,イベント,
+261,探検,Expedition,冒険,イベント,
+262,渡し船,Ferry,冒険,イベント,
+263,相続,Inheritance,冒険,イベント,
+264,失われた技術,Lost Arts,冒険,イベント,
+265,使節団,Mission,冒険,イベント,
+266,誘導,Pathfinding,冒険,イベント,
+267,巡礼,Pilgrimage,冒険,イベント,
+268,立案,Plan,冒険,イベント,
+269,探索,Quest,冒険,イベント,
+270,奇襲,Raid,冒険,イベント,
+271,保存,Save,冒険,イベント,
+272,偵察隊,Scouting Party,冒険,イベント,
+273,海路,Seaway,冒険,イベント,
+274,交易,Trade,冒険,イベント,
+275,鍛錬,Training,冒険,イベント,
+276,移動遊園地,Travelling Fair,冒険,イベント,
+277,召喚,Summon,プロモ,イベント,
+278,資料庫,Archive,帝国,王国,
+279,元手,Capital,帝国,負債,
+280,粗末な城,Humble Castle,帝国,分割,
+281,投石機/石,Catapult/Rocks,帝国,分割,呪い
+282,戦車競走,Chariot Race,帝国,トークン,
+283,御守り,Charm,帝国,王国,
+284,市街,City Quarter,帝国,負債,
+285,冠,Crown,帝国,王国,
+286,陣地/鹵獲品,Encampment/Plunder,帝国,トークン,
+287,女魔術師,Enchantress,帝国,王国,
+288,技術者,Engineer,帝国,負債,
+289,農家の市場,Farmers' Market,帝国,トークン,
+290,公共広場,Forum,帝国,王国,
+291,剣闘士/大金,Gladiator/Fortune,帝国,分割,
+292,庭師,Groundskeeper,帝国,トークン,
+293,軍団兵,Legionary,帝国,王国,
+294,王室の鍛冶屋,Royal BlackSmith,帝国,負債,
+295,大君主,Overlord,帝国,負債,
+296,パトリキ/エンポリウム,Patrician/Emporium,帝国,分割,
+297,生贄,Sacrifice,帝国,トークン,
+298,開拓者/騒がしい村,Settlers/Bustling Village,帝国,分割,
+299,神殿,Temple,帝国,トークン,
+300,ヴィラ,Villa,帝国,王国,
+301,ワイルドハント,Wild Hunt,帝国,トークン,
+302,昇進,Advance,帝国,イベント,
+303,併合,Annex,帝国,イベント,
+304,宴会,Banquet,帝国,イベント,
+305,征服,Conquest,帝国,イベント,
+306,掘進,Delve,帝国,イベント,
+307,制圧,Dominate,帝国,イベント,
+308,寄付,Donate,帝国,イベント,
+309,儀式,Ritual,帝国,イベント,
+310,大地への塩まき,Salt the Earth,帝国,イベント,
+311,徴税,Tax,帝国,イベント,
+312,凱旋,Triumph,帝国,イベント,
+313,結婚式,Wedding,帝国,イベント,
+314,意外な授かり物,Windfall,帝国,イベント,
+315,水道橋,Aqueduct,帝国,ランドマーク,
+316,闘技場,Arena,帝国,ランドマーク,
+317,山賊の砦,Bandit Fort,帝国,ランドマーク,
+318,公会堂,Basilica,帝国,ランドマーク,
+319,浴場,Baths,帝国,ランドマーク,
+320,戦場,Battlefield,帝国,ランドマーク,
+321,列柱,Colonnade,帝国,ランドマーク,
+322,汚された神殿,Defiled Shrine,帝国,ランドマーク,
+323,噴水,Fountain,帝国,ランドマーク,
+324,砦,Keep,帝国,ランドマーク,
+325,迷宮,Labyrinth,帝国,ランドマーク,
+326,峠,Mountain Pass,帝国,ランドマーク,
+327,博物館,Museum,帝国,ランドマーク,
+328,オベリスク,Obelisk,帝国,ランドマーク,
+329,果樹園,Orchard,帝国,ランドマーク,
+330,宮殿,Palace,帝国,ランドマーク,
+331,墓標,Tomb,帝国,ランドマーク,
+332,塔,Tower,帝国,ランドマーク,
+333,凱旋門,Triumphal Arch,帝国,ランドマーク,
+334,壁,Wall,帝国,ランドマーク,
+335,狼の巣,Wolf Den,帝国,ランドマーク,
+336,サウナ/アヴェント,Sauna/Avanto,プロモ,分割,
+337,職人,Artisan,基本2nd,王国,
+338,山賊,Bandit,基本2nd,王国,
+339,前駆者,Harbinger,基本2nd,王国,
+340,商人,Merchant,基本2nd,王国,
+341,密猟者,Poacher,基本2nd,王国,
+342,衛兵,Sentry,基本2nd,王国,
+343,家臣,Vassal,基本2nd,王国,
+344,Courtier,Courtier,陰謀2nd,王国,
+345,Diplomat,Diplomat,陰謀2nd,王国,
+346,Lurker,Lurker,陰謀2nd,王国,
+347,Mill,Mill,陰謀2nd,王国,
+348,Patrol,Patrol,陰謀2nd,王国,
+349,Replace,Replace,陰謀2nd,王国,
+350,Secret Passage,Secret Passage,陰謀2nd,王国,
